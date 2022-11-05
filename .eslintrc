@@ -12,6 +12,7 @@
     "rules": {
       "semi": ["error", "never"],
       "quotes": [2, "single"],
-      "no-console": 1
+      "no-console": 1,
+      "indent": ["error", 2]
     }
   }
