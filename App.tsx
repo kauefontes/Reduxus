@@ -2,7 +2,7 @@ import React from 'react'
 import { Box, NativeBaseProvider } from 'native-base'
 import { Provider as ReduxProvider } from 'react-redux'
 import { UserList } from './src/screens/UserList'
-import store from './src/store'
+import store from './src/store/store'
 
 export default function App() {
   return (

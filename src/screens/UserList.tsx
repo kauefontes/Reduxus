@@ -2,7 +2,7 @@ import React from 'react'
 import { View } from 'react-native'
 import { HStack, Spinner, Heading,  } from 'native-base'
 import { useSelector } from 'react-redux'
-import { RootState } from '../store'
+import { RootState } from '../store/store'
 
 function Loading() {
   return (
